@@ -29,8 +29,7 @@ namespace InyeccionLog4Net
             }
             catch (Exception)
             {
-                _logger.Error("Can't divide by 0. -> num1= "+ num1 + ", num = "+ num2);
-                //throw new Exception("No se puede dividir entre 0.");
+                _logger.Error("Can't divide by 0. -> num1= "+ num1 + ", num2 = "+ num2);
             }
 
             return res;
